@@ -37,7 +37,7 @@ function footer()
     const faceimg = document.createElement('img');
     faceimg.setAttribute('id', "facebook" );
     faceimg.setAttribute('src', "Imagens/facebook.png" );
-    faceimg.setAttribute('className', "img-responsive");
+    faceimg.setAttribute('class', "img-responsive");
     faceimg.setAttribute('alt', "facebook");
 
     div3.appendChild(endereco);
