@@ -1,0 +1,35 @@
+.mapa_footer {
+  padding-top: 5%;
+  margin-bottom:  3%;
+  height: 120px;
+}
+
+/* depois apagar daqui para baixo esta em GRID-LAYOUT nao tem mais utilidade com o footer novo */
+.Footer {
+  display: grid;
+  grid-template-columns: 37% 63%;
+  padding-top: 1em; 
+  padding-left: 80px;
+  font-weight: bold;
+}
+/* margem para 2 coluna do footer */
+#margem_footer {
+  color:black;
+  padding-top: 5%;
+  padding-left: 5%;
+ 
+}
+
+/* Exibe imagem de fundo do footer */
+
+footer 
+{
+background-image: url("../Imagens/Footer.jpg");  
+background-repeat: repeat;
+background-position: center;
+
+}
+/* Tamanho logo facebook */
+#facebook {
+  width:38px;
+}
