@@ -52,22 +52,23 @@ function cabec()
     head.appendChild(link2);     
 
     const script1 = document.createElement('script');
-    script1.setAttribute("src", "https://code.jquery.com/jquery-3.3.1.slim.min.js");
-    script1.setAttribute("integrity", "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo");   
-    script1.setAttribute("crossorigin", "anonymous");   
+    script1.src         = "https://code.jquery.com/jquery-3.3.1.slim.min.js";
+    script1.integrity   = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo";
+    script1.crossOrigin = "anonymous";
     head.appendChild(script1);
 
     const script2 = document.createElement('script');
-    script2.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js");
-    script2.setAttribute("integrity", "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1");   
-    script2.setAttribute("crossorigin", "anonymous");   
+    script2.src         = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js";
+    script2.integrity   = "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1";
+    script2.crossOrigin ="anonymous";
     head.appendChild(script2);
 
     const script3 = document.createElement('script');
-    script3.setAttribute("src", "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
-    script3.setAttribute("integrity", "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM");   
+    script3.src         = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js";
+    script3.integrity   = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM";
+    script3.crossOrigin = "anonymous";
     script3.setAttribute("crossorigin", "anonymous");   
-    head.appendChild(script3);    
+    head.appendChild(script3);
 
     // Biblioteca de ícones
     const link3 = document.createElement('link');
