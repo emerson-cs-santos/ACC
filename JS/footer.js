@@ -23,22 +23,28 @@ function footer()
 
     const div3 = document.createElement ('div');
     div3.className="col-xs-12 col-md-6 mt-4 text-center";
+    div1.appendChild(div3);
     
     const endereco = document.createElement('p');
     endereco.className="font-weight-bold";
     endereco.innerHTML="Localização: <br> Rua Vereador José Gomes de Moares Neto,60 - Parque Residencial Cocaia<br> 04849-030 - Sao Paulo - SP<br>";
+    div3.appendChild(endereco);
+    
     const url = document.createElement('a');
     url.title = "Siga no Facebook";
+    url.innerText = 'Siga no Facebook';
     url.href = "https://facebook.com/associacaocc/";
+    endereco.appendChild(url);
 
     const faceimg = document.createElement('img');
     faceimg.setAttribute('id', "facebook" );
     faceimg.setAttribute('src', "Imagens/facebook.png" );
-    faceimg.setAttribute('class', "mt-2");
+    faceimg.setAttribute('class', "mt-2 mb-3");
     faceimg.setAttribute('alt', "facebook");
+    div3.appendChild(faceimg);
 
-    div3.appendChild(endereco);
-    endereco.appendChild(url);
-    url.appendChild(faceimg);
-    div1.appendChild(div3);
+
+    
+    
+   
 }  
