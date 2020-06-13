@@ -1,158 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+    <head id='head'>
+        <!-- JavaScript -->
+        <script src="JS/cabec.js"></script>
+        <script src="JS/footer.js"></script>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>                
+    </head>
 
-    <title>ACC - Membros</title>
-    <meta charset="utf-8">
-    <meta name="description" content=">Associação Cultural Cariri, Enentos beneficentes, cursos gratuiros, bazares....(colocar mais descrição que aparecetá no buscador ex: google e yahoo">
-    <meta name="keywords" content="ONG, Beneficente, brazar, cursos, palestras">
-    <meta name="authot" content="The Warriors (Senac-PI)">
-  
-    <link rel="stylesheet" href="css/Header.css">
-    <link rel="stylesheet" href="css/Footer.css">
-    <link rel="stylesheet" href="css/Emerson.css">
+    <body>
+        <div id='start' class='container'>
+            <script>
+                cabec();
+            </script>            
 
-</head>
-
-<body>
-
-    <header class="Grade">
-
-            <!-- Menu de navegação -->
-            <nav class="navbar">
+            <main>
+                <section class='col-12 mt-2'>
+ 
+                    <h1 class="text-center mt-2">Membros</h1>
     
-                <!-- Logo da ONG -->
-                <a href="index.html"> <img id="imagem_header" src="Imagens/Logo_livro.jpg" alt="Logo da ONG"></a>
-    
-                <!-- Opções do menu-->
-                <ul class="menu">
-    
-                    <!-- Index -->
-                    <li><a href="index.html">Inicio</a></li>
-                    
-                    <!-- Sobre a entidade -->
-                    <li><a href="#">Sobre a entidade</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do primeiro Drop Down -->
-                            <li><a href="Historia.html">História</a></li>
-                            <li><a href="membros.html">Membros</a></li>
-                            <li><a href="Voluntarios.html">Voluntários</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Projetos -->
-                    <li><a href="#">Projetos</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do Segundo Drop Down -->
-                            <li><a href="Reciclagem.html">Reciclagem</a></li>
-                            <li><a href="Brecho.html">Brechó</a></li>
-                            <li><a href="Cursos.html">Cursos</a></li>
-                            <li><a href="Corte_Costura.html">Corte & Costura</a></li>
-                            <li><a href="biju.html">Bijuterias</a></li>
-                            <li> <a href="Sarau_Poesia.html">Saurau de Poesia</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Eventos realizados-->
-                    <li><a href="#">Eventos Realizados</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do Terceiro Drop Down -->
-                            <li><a href="Aniversario_Cocaia.html">Aniversário Cocaia </a>
-                            <li><a href="Outros_Eventos.html">Outros eventos</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Registro de atividades -->
-                    <li><a href="#">Registro de atividades</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do Terceiro Drop Down -->
-                            <li><a href="Trabalhos.html">Trabalhos</a></li>
-                            <li><a href="Reunioes_Realizadas.html">Reuniões realizadas</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Como ajudar-->
-                    <li><a href="Como_Ajudar.html">Como ajudar</a></li>
-    
-                    <!-- Contato -->
-                    <li><a href="Contato.html">Contato</a></li>
-    
-                    <!-- Sobre -->
-                    <li><a href="Sobre.html">Sobre</a></li>                
-                </ul>
-            </nav>
-        </header>
+                    <header>
+                        <h2 class="text-center mt-5">Quem somos</h2>
+                    </header>
 
-    <main>
-        <section>
-            
-            <h1 class="h1_membros margem_top">Membros</h1>
+                    <div class="card-deck mt-5">
 
-            <div class='membros_Caixa_1'> 
+                        <div class="card text-center">
+                            <img src="Imagens/Membro_1.png" class="card-img-top" alt="Francisco Costa dos Santos">
+                          
+                          <div class="card-body">
+                            <h3 class="h5 card-title">Francisco Costa dos Santos</h3>
+                            <p class="card-text">Idealizador e fundador</p>
+                          </div>
 
-                <div>
-                    <h2 class='h2_membros'>Idealizador e fundador</h2>
-                    <p class='p_membros'> Francisco Costa dos Santos <br> Professor, escritor</p>
-                    <img class='img_membro' src="Imagens/Membro_1.png" alt="Idealizador e fundador, Francisco Costa dos Santos, Professor, escritor.">
-                </div>     
-                
-                <div>
-                    <h2 class='h2_membros'>Presidente</h2>
-                    <p class='p_membros'>Jervanio dos Santos <br> Atuação área de transporte</p>
-                    <img class='img_membro' src="Imagens/Membro_2.png" alt="Presidente, Jervanio dos Santos, Atuação área de transporte.">
-                </div>    
-                    
-                <div>
-                    <h2 class='h2_membros'>Vice-presidente</h2>
-                    <p class='p_membros'>Renato Alves <br> Serralheiro</p>
-                    <img class='img_membro' src="Imagens/Membro_3.JPG" alt="Vice-presidente, Renato Alves, Serralheiro.">
-                </div>   
+                          <div class="card-footer">
+                            <p class="text-muted">Professor e Escritor</p>
+                          </div>
+                        </div>
 
-            </div>
+                        <div class="card text-center">
+                            <img src="Imagens/Membro_2.png" class="card-img-top" alt="Jervanio dos Santos">
+                          
+                          <div class="card-body">
+                            <h3 class="h5 card-title">Jervanio dos Santos</h3>
+                            <p class="card-text">Presidente</p>
+                          </div>
 
-            <div class='membros_Caixa_2'> 
+                          <div class="card-footer">
+                            <p class="text-muted">Atuação área de transporte</p>
+                          </div>
+                        </div>
 
-                    <div>
-                        <h2 class='h2_membros'>Primeira secretária</h2>
-                        <p class='p_membros'>Paula dos Santos Lima <br> Cozinheira e Artesã</p>
-                        <img class='img_membro' src="Imagens/Membro_4.JPG" alt="Primeira secretária, Paula dos Santos Lima, Cozinheira e Artesã.">
-                    </div> 
+                        <div class="card text-center">
+                            <img src="Imagens/Membro_3.JPG" class="card-img-top" alt="Renato Alves">
+                          
+                          <div class="card-body">
+                            <h3 class="h5 card-title">Renato Alves</h3>
+                            <p class="card-text">Vice-presidente</p>
+                          </div>
 
-                    <div>
-                        <h2 class='h2_membros'>Segunda secretária</h2>
-                        <p class='p_membros'>Paula Claro Arena <br> Artesã</p>
-                        <img class='img_membro' src="Imagens/Membro_5.JPG" alt="Segunda secretária, Paula Claro Arena, Artesã.">
-                    </div> 
-                        
-                    <div>
-                        <h2 class='h2_membros'>Primeira tesoureira</h2>
-                        <p class='p_membros'>Maria Dilza Costa Santos <br> Pedagoga e Professora</p>
-                        <img class='img_membro' src="Imagens/Membro_6.JPG" alt="Primeira tesoureira, Maria Dilza Costa Santos, Pedagoga e Professora.">
-                    </div>                         
-                    
-                </div>
-         </section>
+                          <div class="card-footer">
+                            <p class="text-muted">Serralheiro</p>
+                          </div>
+                        </div>
 
-    </main>
+                    </div>
 
-     <footer>
-            <div class="Footer">
-    
-                <div class="mapa_footer">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.0977166211906!2d-46.67624318528077!3d-23.743894584592493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f5769971e65%3A0xf317438b51f25d9e!2sR.+Ver.+Jos%C3%A9+Gomes+de+Mor%C3%A3es+Neto%2C+60+-+Parque+Res.+Cocaia%2C+S%C3%A3o+Paulo+-+SP%2C+04849-030!5e0!3m2!1spt-BR!2sbr!4v1557706639363!5m2!1spt-BR!2sbr" width="400" height="200" allowfullscreen></iframe>
-                </div>
-    
-                <div id="margem_footer">
-                    <p>Localização:<br>
-                        Rua Vereador José Gomes de Moares Neto,60 - Parque Residencial Cocaia<br>
-                        04849-030 - Sao Paulo - SP<br>
-                        <i class="fa fa-facebook-official" style="font-size:36px"></i><br>
-                        <a href="https://facebook.com/associacaocc/"><img id="facebook" src="Imagens/facebook.png" class="img-responsive" alt="facebook">   Siga no Facebook</a>
-                    </p>
-                </div>
-            </div>
-        </footer>
-   
-</body>
+
+                    <div class="card-deck mt-5">
+
+                        <div class="card text-center">
+                            <img src="Imagens/Membro_4.JPG" class="card-img-top" alt="Paula dos Santos Lima">
+                            
+                            <div class="card-body">
+                            <h3 class="h5 card-title">Paula dos Santos Lima</h3>
+                            <p class="card-text">Primeira secretária</p>
+                            </div>
+
+                            <div class="card-footer">
+                            <p class="text-muted">Cozinheira e Artesã</p>
+                            </div>
+                        </div>
+
+                        <div class="card text-center">
+                            <img src="Imagens/Membro_5.JPG" class="card-img-top" alt="Paula Claro Arena">
+                            
+                            <div class="card-body">
+                            <h3 class="h5 card-title">Paula Claro Arena</h3>
+                            <p class="card-text">Segunda secretária</p>
+                            </div>
+
+                            <div class="card-footer">
+                            <p class="text-muted">Artesã</p>
+                            </div>
+                        </div>
+
+                        <div class="card text-center">
+                            <img src="Imagens/Membro_6.JPG" class="card-img-top" alt="Maria Dilza Costa Santos">
+                            
+                            <div class="card-body">
+                            <h3 class="h5 card-title">Maria Dilza Costa Santos</h3>
+                            <p class="card-text">Primeira tesoureira</p>
+                            </div>
+
+                            <div class="card-footer">
+                            <p class="text-muted">Pedagoga e Professora</p>
+                            </div>
+                        </div>
+
+                    </div>                      
+
+                </section>
+            </main>
+
+            <script>
+                footer();
+            </script>
+        </div>
+    </body>
 </html>
+
+
+
