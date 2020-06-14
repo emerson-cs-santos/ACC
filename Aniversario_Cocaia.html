@@ -1,132 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+    <head id='head'>
+        <!-- JavaScript -->
+        <script src="JS/cabec.js"></script>
+        <script src="JS/footer.js"></script>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>                
+    </head>
 
-    <title>Associação Cultural Cariri</title>
-    <meta charset="utf-8">
-    <meta name="description"
-        content=">Associação Cultural Cariri, Enentos beneficentes, cursos gratuiros, bazares....(colocar mais descrição que aparecetá no buscador ex: google e yahoo">
-    <meta name="keywords" content="ONG, Beneficente, brazar, cursos, palestras">
-    <meta name="authot" content="The Warriors (Senac-PI)">
+    <body>
+        <div id='start' class='container'>
+            <script>
+                cabec();
+            </script>            
 
-    <link rel="stylesheet" href="css/Header.css">
-    <link rel="stylesheet" href="css/Footer.css">
-    <link rel="stylesheet" href="css/sergio.css">
-
-</head>
-
-<body>
-
-    <header class="Grade">
-        <!-- Menu de navegação -->
-        <nav class="navbar">
-
-            <!-- Logo da ONG -->
-            <a href="index.html"> <img id="imagem_header" src="Imagens/Logo_livro.jpg" alt="Logo da ONG"></a>
-
-            <!-- Opções do menu-->
-            <ul class="menu">
-
-                <!-- Index -->
-                <li><a href="index.html">Inicio</a></li>
-                
-                <!-- Sobre a entidade -->
-                <li><a href="#">Sobre a entidade</a>
-                    <ul class="dropdown">
-                        <!-- Esse é o 2 nivel do primeiro Drop Down -->
-                        <li><a href="Historia.html">História</a></li>
-                        <li><a href="membros.html">Membros</a></li>
-                        <li><a href="Voluntarios.html">Voluntários</a></li>
-                    </ul>
-                </li>
-
-                <!-- Projetos -->
-                <li><a href="#">Projetos</a>
-                    <ul class="dropdown">
-                        <!-- Esse é o 2 nivel do Segundo Drop Down -->
-                        <li><a href="Reciclagem.html">Reciclagem</a></li>
-                        <li><a href="Brecho.html">Brechó</a></li>
-                        <li><a href="Cursos.html">Cursos</a></li>
-                        <li><a href="Corte_Costura.html">Corte & Costura</a></li>
-                        <li><a href="biju.html">Bijuterias</a></li>
-                        <li> <a href="Sarau_Poesia.html">Saurau de Poesia</a></li>
-                    </ul>
-                </li>
-
-                <!-- Eventos realizados-->
-                <li><a href="#">Eventos Realizados</a>
-                    <ul class="dropdown">
-                        <!-- Esse é o 2 nivel do Terceiro Drop Down -->
-                        <li><a href="Aniversario_Cocaia.html">Aniversário Cocaia </a>
-                        <li><a href="Outros_Eventos.html">Outros eventos</a></li>
-                    </ul>
-                </li>
-
-                <!-- Registro de atividades -->
-                <li><a href="#">Registro de atividades</a>
-                    <ul class="dropdown">
-                        <!-- Esse é o 2 nivel do Terceiro Drop Down -->
-                        <li><a href="Trabalhos.html">Trabalhos</a></li>
-                        <li><a href="Reunioes_Realizadas.html">Reuniões realizadas</a></li>
-                    </ul>
-                </li>
-
-                <!-- Como ajudar-->
-                <li><a href="Como_Ajudar.html">Como ajudar</a></li>
-
-                <!-- Contato -->
-                <li><a href="Contato.html">Contato</a></li>
-
-                <!-- Sobre -->
-                <li><a href="Sobre.html">Sobre</a></li>                
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="grid-container3">
-            <div class="cx cx-3">
-
-                <h1>Aniversário Cocaia</h1>
-
-                <h2>Evento: Aniversário do Bairro Parque Residencial Cocaia. </h2>
-                <p>A Casa da Associação Cultural Cariri!</p>
-                <p>A ONG realiza um evento beneficente do aniversário do bairro onde reside, com comes e bebes, bingo e
-                    música ao vivo.</p>
-                <h2>Últimos aniversários comemorados</h2>
-            </div>
-            <div>
-                <img class="borda" src="Imagens/Cocaia_1.jpg" alt="Aniversário Cocaia 1">
-            </div>
-            <div>
-                <img class="borda" src="Imagens/Cocaia_2.jpg" alt="Aniversário Cocaia 2">
-            </div>
-            <div>
-                <img class="borda" src="Imagens/Cocaia_3.jpg" alt="Aniversário Cocaia 3">
-            </div>
-        </section>
-
-    </main>
-
-        <footer>
-            <div class="Footer">
+            <main>
+                <section class='col-12 mt-2'>
+ 
+                    <h1 class="text-center mt-2">Aniversário Cocaia</h1>
     
-                <div class="mapa_footer">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.0977166211906!2d-46.67624318528077!3d-23.743894584592493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f5769971e65%3A0xf317438b51f25d9e!2sR.+Ver.+Jos%C3%A9+Gomes+de+Mor%C3%A3es+Neto%2C+60+-+Parque+Res.+Cocaia%2C+S%C3%A3o+Paulo+-+SP%2C+04849-030!5e0!3m2!1spt-BR!2sbr!4v1557706639363!5m2!1spt-BR!2sbr" width="400" height="200" allowfullscreen></iframe>
-                </div>
-    
-                <div id="margem_footer">
-                    <p>Localização:<br>
-                        Rua Vereador José Gomes de Moares Neto,60 - Parque Residencial Cocaia<br>
-                        04849-030 - Sao Paulo - SP<br>
-                        <i class="fa fa-facebook-official" style="font-size:36px"></i><br>
-                        <a href="https://facebook.com/associacaocc/"><img id="facebook" src="Imagens/facebook.png" class="img-responsive" alt="facebook">   Siga no Facebook</a>
-                    </p>
-                </div>
-            </div>
-        </footer>
+                    <header>
+                        <h2 class="text-center mt-3">Aniversário do Bairro Parque Residencial Cocaia.</h2>
+                    </header>
 
-</body>
+                    <p class="h3 mt-5">A Casa da Associação Cultural Cariri!</p>
+                    
+                    <p class="h4 mt-5">A ONG realiza um evento beneficente do aniversário do bairro onde reside, com comes e bebes, bingo e música ao vivo.</p>
+                    
+                    <p class="h4 mt-5">Últimos aniversários comemorados:</p>
 
+                    <div class ='col-12'>
+                        <div id="carouselExampleInterval" class="carousel slide mt-3" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active w-100" data-interval="1000" >
+                                    <img src="Imagens/Cocaia_1.jpg" class="d-block w-100" alt="Fotos de Aniversários do Cocaia">
+                                </div>
+
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="Imagens/Cocaia_2.jpg" class="d-block w-100" alt="Fotos de Aniversários do Cocaia">
+                                </div>
+
+                                <div class="carousel-item" data-interval="3000">
+                                    <img src="Imagens/Cocaia_3.jpg" class="d-block w-100" alt="Fotos de Aniversários do Cocaia">
+                                </div> 
+
+                            </div>
+
+                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>                                  
+                    </div>                    
+
+                </section>
+            </main>
+
+            <script>
+                footer();
+            </script>
+        </div>
+    </body>
 </html>

@@ -256,7 +256,7 @@ function cabec()
     linkBijuterias.innerText  = "Bijuterias";
     linkBijuterias.title      = "Bijuterias";
     linkBijuterias.className  = "dropdown-item menuHover";
-    linkBijuterias.href       = "Bijuterias.html";  
+    linkBijuterias.href       = "Biju.html";  
     divProjetos.appendChild(linkBijuterias);    
 
     const linkSarau_Poesia      = document.createElement('a');

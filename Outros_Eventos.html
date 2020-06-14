@@ -1,167 +1,370 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <title>ACC - Outros Eventos</title>
 
-    <meta charset="utf-8">
-    <meta name="description" content=">Associação Cultural Cariri, Enentos beneficentes, cursos gratuiros, bazares....(colocar mais descrição que aparecetá no buscador ex: google e yahoo">
-    <meta name="keywords" content="ONG, Beneficente, brazar, cursos, palestras">
-    <meta name="authot" content="The Warriors (Senac-PI)">
+    <head id='head'>
+        <!-- JavaScript -->
+        <script src="JS/cabec.js"></script>
+        <script src="JS/footer.js"></script>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>                
+    </head>
 
-    <link rel="stylesheet" href="css/Header.css">
-    <link rel="stylesheet" href="css/Footer.css">
-    <link rel="stylesheet" href="css/Emerson.css">
+    <body>
+        <div id='start' class='container'>
+            <script>
+                cabec();
+            </script>            
 
-    <link rel="stylesheet" href="css/Slide_show.css">
+            <main>
+                <section class='col-12 mt-2'>
+ 
+                    <h1 class="text-center mt-2">Outros Eventos</h1>
+    
+                    <header>
+                        <h2 class="text-center mt-3">A Associação já participou de diversos eventos, clique em 1 deles abaixo para visualizar as fotos do evento.</h2>
+                    </header>
 
-    <script src="JS/Slide_Show.js"></script>
-    <script src="JS/Eventos.js"></script>
-    
-</head>
-
-<body>
-
-    <header class="Grade">
-
-            <!-- Menu de navegação -->
-            <nav class="navbar">
-    
-                <!-- Logo da ONG -->
-                <a href="index.html"> <img id="imagem_header" src="Imagens/Logo_livro.jpg" alt="Logo da ONG"></a>
-    
-                <!-- Opções do menu-->
-                <ul class="menu">
-    
-                    <!-- Index -->
-                    <li><a href="index.html">Inicio</a></li>
-                    
-                    <!-- Sobre a entidade -->
-                    <li><a href="#">Sobre a entidade</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do primeiro Drop Down -->
-                            <li><a href="Historia.html">História</a></li>
-                            <li><a href="membros.html">Membros</a></li>
-                            <li><a href="Voluntarios.html">Voluntários</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Projetos -->
-                    <li><a href="#">Projetos</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do Segundo Drop Down -->
-                            <li><a href="Reciclagem.html">Reciclagem</a></li>
-                            <li><a href="Brecho.html">Brechó</a></li>
-                            <li><a href="Cursos.html">Cursos</a></li>
-                            <li><a href="Corte_Costura.html">Corte & Costura</a></li>
-                            <li><a href="biju.html">Bijuterias</a></li>
-                            <li> <a href="Sarau_Poesia.html">Saurau de Poesia</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Eventos realizados-->
-                    <li><a href="#">Eventos Realizados</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do Terceiro Drop Down -->
-                            <li><a href="Aniversario_Cocaia.html">Aniversário Cocaia </a>
-                            <li><a href="Outros_Eventos.html">Outros eventos</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Registro de atividades -->
-                    <li><a href="#">Registro de atividades</a>
-                        <ul class="dropdown">
-                            <!-- Esse é o 2 nivel do Terceiro Drop Down -->
-                            <li><a href="Trabalhos.html">Trabalhos</a></li>
-                            <li><a href="Reunioes_Realizadas.html">Reuniões realizadas</a></li>
-                        </ul>
-                    </li>
-    
-                    <!-- Como ajudar-->
-                    <li><a href="Como_Ajudar.html">Como ajudar</a></li>
-    
-                    <!-- Contato -->
-                    <li><a href="Contato.html">Contato</a></li>
-    
-                    <!-- Sobre -->
-                    <li><a href="Sobre.html">Sobre</a></li>                
-                </ul>
-            </nav>
-        </header>
-
-    <main>
-        <section>
-            <h1 class="h1_Outros_eventos margem_top">Outros Eventos</h1>
-            <p class='p_outros_eventos'> A Associação já participou de diversos eventos, clique em 1 deles abaixo para visualizar as fotos do evento.</p>
-            <p class='p_outros_eventos2'>Selecione um evento e utilize o painel para visualizar as imagens do evento selecionado.</p>
+                    <ul class="nav nav-pills mb-3 mt-5 nav-fill" id="pills-tab" role="tablist">
                         
-            <div class="Outros_eventos_Caixa">
+                        <li class="nav-item">
+                            <a class="nav-link active h5" id="Deloitte-tab" data-toggle="pill" href="#Deloitte" role="tab" aria-controls="Deloitte-home" aria-selected="true">Deloitte</a>
+                        </li>
 
-                <form id='Form_eventos_lista'>
-                    
-                    <label class='label_lista_eventos' >Eventos:</label>
+                        <li class="nav-item">
+                            <a class="nav-link h5" id="pills-Petrobras-tab" data-toggle="pill" href="#pills-Petrobras" role="tab" aria-controls="pills-Petrobras" aria-selected="false">Petrobras</a>
+                        </li>
 
-                    <select id="Lista_eventos" onchange="Eventos_carregar()">
-                       
-                        <option value="Deloitte">Deloitte</option>
-                        <option value="Petrobras">Petrobras</option>
-                        <option value="Palestra_de_literatura">Palestra de literatura</option>
-                        <option value="Senac">Senac</option>
-                        <option value="Bazar_bem_possivel">Bazar do bem possível</option>
-                        <option value="Shopping_penha">Shopping penha</option>
-                        <option value="Estacio">Estácio</option>
-                        <option value="Clube_Pinheiros">Clube Pinheiros</option>
-                    </select> 
+                        <li class="nav-item">
+                            <a class="nav-link h5" id="pills-literatura-tab" data-toggle="pill" href="#pills-literatura" role="tab" aria-controls="pills-literatura" aria-selected="false">Palestra de literatura</a>
+                        </li>
 
-                </form>      
-                
-                <form id='Form_eventos_imagens'>
-                    <label 
-                        id='label_eventos' class='label_slide_show'>
-                        Título do Evento
-                    </label>
-
-                    <div>
-                        <img id='img_eventos' class='img_slide_show' src="Imagens/ajudar.png" alt="Eventos que a associação já participou.">
-                    </div>
+                        <li class="nav-item">
+                            <a class="nav-link h5" id="pills-Senac-tab" data-toggle="pill" href="#pills-Senac" role="tab" aria-controls="pills-Senac" aria-selected="false">Senac</a>
+                        </li>      
                         
-                    <button id='botao_eventos_anterior'
-                        type="button" 
-                        name="btn_Anterior" 
-                        onclick="ver_evento('esquerda')"
-                    >&lsaquo;&lsaquo; <!-- Código asc do hmtl para fazer o caractere '<' ' -->
-                    </button>
+                        <li class="nav-item">
+                            <a class="nav-link h5" id="pills-Bazar-tab" data-toggle="pill" href="#pills-Bazar" role="tab" aria-controls="pills-Bazar" aria-selected="false">Bazar do bem possível</a>
+                        </li>      
+                        
+                        <li class="nav-item">
+                            <a class="nav-link h5" id="pills-penha-tab" data-toggle="pill" href="#pills-penha" role="tab" aria-controls="pills-penha" aria-selected="false">Shopping penha</a>
+                        </li>      
+                        
+                        <li class="nav-item">
+                            <a class="nav-link h5" id="pills-Estacio-tab" data-toggle="pill" href="#pills-Estacio" role="tab" aria-controls="pills-Estacio" aria-selected="false">Estácio</a>
+                        </li>    
+                        
+                        
+                        <li class="nav-item">
+                            <a class="nav-link h5" id="pills-Pinheiros-tab" data-toggle="pill" href="#pills-Pinheiros" role="tab" aria-controls="pills-Pinheiros" aria-selected="false">Clube Pinheiros</a>
+                        </li>                          
 
-                    <button id='botao_eventos_proximo'
-                        type="button" 
-                        name="btn_Proximo" 
-                        onclick="ver_evento('direita')"
-                    >&rsaquo;&rsaquo; <!-- Código asc do hmtl para fazer o caractere '>' ' -->
-                    </button>
-                </form>        
-            </div> 
-         </section>
+                    </ul>
 
-        <script>
-            // Define imagem inicial
-            ver_evento_inicial();    
-        </script>         
-    </main>
+                    <div class="tab-content" id="pills-tabContent">
+                        
+                        <div class="tab-pane fade show active" id="Deloitte" role="tabpanel" aria-labelledby="Deloitte-home-tab">
 
-    <footer>
-        <div class="Footer">
+                            <div id="carouselDeloitte" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Bazar de natal 2012   </h3>
+                                        <img src="Imagens/Deloitte_1.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Bazar de natal 2012   </h3>
+                                        <img src="Imagens/Deloitte_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="3000">
+                                        <h3 class="h5">Ipacday / 2012  </h3>
+                                        <img src="Imagens/Deloitte_3.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div> 
 
-            <div class="mapa_footer">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.0977166211906!2d-46.67624318528077!3d-23.743894584592493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f5769971e65%3A0xf317438b51f25d9e!2sR.+Ver.+Jos%C3%A9+Gomes+de+Mor%C3%A3es+Neto%2C+60+-+Parque+Res.+Cocaia%2C+S%C3%A3o+Paulo+-+SP%2C+04849-030!5e0!3m2!1spt-BR!2sbr!4v1557706639363!5m2!1spt-BR!2sbr" width="400" height="200" allowfullscreen></iframe>
-            </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <h3 class="h5">Ipacday / 2012  </h3>
+                                        <img src="Imagens/Deloitte_4.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>                                         
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselDeloitte" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselDeloitte" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
 
-            <div id="margem_footer">
-                <p>Localização:<br>
-                    Rua Vereador José Gomes de Moares Neto,60 - Parque Residencial Cocaia<br>
-                    04849-030 - Sao Paulo - SP<br>
-                    <i class="fa fa-facebook-official" style="font-size:36px"></i><br>
-                    <a href="https://facebook.com/associacaocc/"><img id="facebook" src="Imagens/facebook.png" class="img-responsive" alt="facebook">   Siga no Facebook</a>
-                </p>
-            </div>
+                        </div>
+                        
+
+                        <div class="tab-pane fade" id="pills-Petrobras" role="tabpanel" aria-labelledby="pills-Petrobras-tab">
+
+                            <div id="carouselPetrobras" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Bazar solidário 2012  </h3>
+                                        <img src="Imagens/Petrobras_1.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Bazar solidário 2012  </h3>
+                                        <img src="Imagens/Petrobras_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>                                     
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselPetrobras" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselPetrobras" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>
+                        
+
+                        <div class="tab-pane fade" id="pills-literatura" role="tabpanel" aria-labelledby="pills-literatura-tab">
+
+                            <div id="carouselLiteratura" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Palestra de literatura  </h3>
+                                        <img src="Imagens/Palestra_Literatura_1.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Palestra de literatura  </h3>
+                                        <img src="Imagens/Palestra_Literatura_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>                                     
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselLiteratura" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselLiteratura" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="tab-pane fade" id="pills-Senac" role="tabpanel" aria-labelledby="pills-Senac-tab">
+
+                            <div id="carouselSenac" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Oficina de feltro 2012  </h3>
+                                        <img src="Imagens/Senac_1.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Oficina de feltro 2012  </h3>
+                                        <img src="Imagens/Senac_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>       
+                                    
+                                    <div class="carousel-item" data-interval="3000" >
+                                        <h3 class="h5">Oficina de feltro 2012  </h3>
+                                        <img src="Imagens/Senac_3.jpg" class="d-block w-100 img-thumbnail" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="4000">
+                                        <h3 class="h5">Dia da responsabilidade social 2012  </h3>
+                                        <img src="Imagens/Senac_4.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>     
+                                    
+                                    <div class="carousel-item" data-interval="5000" >
+                                        <h3 class="h5">Dia da responsabilidade social 2012  </h3>
+                                        <img src="Imagens/Senac_5.jpg" class="d-block w-100 img-thumbnail" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="6000">
+                                        <h3 class="h5">Semana do meio ambiente/2012  </h3>
+                                        <img src="Imagens/Senac_6.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>   
+                                    
+                                    <div class="carousel-item" data-interval="7000">
+                                        <h3 class="h5">Semana do meio ambiente/2012  </h3>
+                                        <img src="Imagens/Senac_7.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>                                     
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselSenac" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselSenac" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>                        
+
+
+                        <div class="tab-pane fade" id="pills-Bazar" role="tabpanel" aria-labelledby="Bazar-home-tab">
+
+                            <div id="carouselBazar" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Bazar do bem possível </h3>
+                                        <img src="Imagens/Bazar_Bem_Possivel_1.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Bazar do bem possível </h3>
+                                        <img src="Imagens/Bazar_Bem_Possivel_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="3000">
+                                        <h3 class="h5">Bazar do bem possível </h3>
+                                        <img src="Imagens/Bazar_Bem_Possivel_3.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselBazar" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselBazar" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>  
+                        
+                        
+                        <div class="tab-pane fade" id="pills-penha" role="tabpanel" aria-labelledby="penha-home-tab">
+
+                            <div id="carouselpenha" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Shopping penha: 14/fev/2012</h3>
+                                        <img src="Imagens/Shopping_penha_1.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Shopping penha: 14/fev/2012</h3>
+                                        <img src="Imagens/Shopping_penha_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="3000">
+                                        <h3 class="h5">Shopping penha: 14/fev/2012</h3>
+                                        <img src="Imagens/Shopping_penha_3.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselpenha" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselpenha" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>      
+                        
+                        
+                        <div class="tab-pane fade" id="pills-Estacio" role="tabpanel" aria-labelledby="Estacio-home-tab">
+
+                            <div id="carouselEstacio" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Exposição de Artesanato 2017</h3>
+                                        <img src="Imagens/estacio_1.jpg" class="d-block w-100 img-thumbnail" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Exposição de Artesanato 2017</h3>
+                                        <img src="Imagens/estacio_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="3000">
+                                        <h3 class="h5">Exposição de Artesanato 2017</h3>
+                                        <img src="Imagens/estacio_3.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselEstacio" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselEstacio" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>                          
+
+
+                        <div class="tab-pane fade" id="pills-Pinheiros" role="tabpanel" aria-labelledby="Pinheiros-home-tab">
+
+                            <div id="carouselPinheiros" class="carousel slide mt-3" data-ride="carousel">
+                                <div class="carousel-inner">
+    
+                                    <div class="carousel-item active w-100" data-interval="1000" >
+                                        <h3 class="h5">Clube Pinheiros 2018</h3>
+                                        <img src="Imagens/Clube_Pinheiros_1.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="2000">
+                                        <h3 class="h5">Clube Pinheiros 2018</h3>
+                                        <img src="Imagens/Clube_Pinheiros_2.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                    <div class="carousel-item" data-interval="3000">
+                                        <h3 class="h5">Clube Pinheiros 2018</h3>
+                                        <img src="Imagens/Clube_Pinheiros_3.jpg" class="d-block w-100" alt="Fotos de eventos">
+                                    </div>
+    
+                                </div>
+    
+                                <a class="carousel-control-prev" href="#carouselPinheiros" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselPinheiros" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>                           
+                    </div>    
+                </section>
+            </main>
+
+            <script>
+                footer();
+            </script>
         </div>
-    </footer>
-</body>
+    </body>
+</html>
