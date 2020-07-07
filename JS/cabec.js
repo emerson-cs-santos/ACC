@@ -16,7 +16,7 @@ function cabec()
     // description
     const meta2 = document.createElement('meta');
     meta2.setAttribute("name", "description");
-    meta2.setAttribute("content", "Associação Cultural Cariri, Enentos beneficentes, cursos gratuiros, bazares...");
+    meta2.setAttribute("content", "Associação Cultural Cariri, Eventos beneficentes, cursos gratuiros, bazares...");
     head.appendChild(meta2);
 
     // keywords
