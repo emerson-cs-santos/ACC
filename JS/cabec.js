@@ -224,6 +224,20 @@ function cabec()
     divProjetos.className   = 'dropdown-menu text-center';
     liProjetos.appendChild(divProjetos);
 
+    const linkCestas      = document.createElement('a');
+    linkCestas.innerText  = "Cestas Básicas";
+    linkCestas.title      = "Cestas Básicas";
+    linkCestas.className  = "dropdown-item menuHover";
+    linkCestas.href       = "Cestas.html";  
+    divProjetos.appendChild(linkCestas);
+
+    const linkMascara      = document.createElement('a');
+    linkMascara.innerText  = "Máscaras Covid 19";
+    linkMascara.title      = "Máscaras Covid 19";
+    linkMascara.className  = "dropdown-item menuHover";
+    linkMascara.href       = "Mascaras.html";  
+    divProjetos.appendChild(linkMascara);
+
     const linkReciclagem      = document.createElement('a');
     linkReciclagem.innerText  = "Reciclagem";
     linkReciclagem.title      = "Reciclagem";
